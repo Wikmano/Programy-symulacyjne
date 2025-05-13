@@ -12,7 +12,7 @@ Projekt zawiera implementacje dwóch rodzajów algorytmów systemów operacyjnyc
    - **FIFO (First-in, First-Out)** – Algorytm zarządzania pamięcią, który usuwa stronę, która najdłużej znajduje się w pamięci.
    - **LRU (Least Recently Used)** – Algorytm, który usuwa stronę, która była najdawniej używana.
 
-Projekt obejmuje zarówno implementację tych algorytmów, jak i przeprowadzenie eksperymentów porównujących ich wydajność.
+Projekt obejmuje zarówno implementację tych algorytmów, jak i przeprowadzenie eksperymentów porównujących ich wydajność. Dodatkowo, pełny przebieg projektu, wraz z wynikami i wykresami szybkości oraz skuteczności działania algorytmów, znajduje się w pliku PDF dołączonym do repozytorium.
 
 ## Część I: Algorytmy Przydziału Procesora
 
@@ -55,3 +55,9 @@ Algorytm **LRU** usuwa stronę, która była używana najdawniej, zakładając, 
 #### Porównanie
 - W eksperymencie porównano algorytmy **FIFO** i **LRU** w różnych scenariuszach, zarówno losowych, jak i manualnie określonych wzorcach dostępu do pamięci.
 - **LRU** zazwyczaj skutkuje mniejszą liczbą błędów stron, ale wyniki zależą od konkretnego wzorca dostępu.
+
+## Dokumentacja i Analiza
+
+Pełny przebieg projektu, w tym implementacja algorytmów, analiza wyników oraz wykresy porównujące szybkość i skuteczność algorytmów, znajduje się w załączonym pliku PDF. 
+
+Plik PDF zawiera szczegółowe opisy, wyniki eksperymentów oraz wykresy przedstawiające wydajność różnych algorytmów. Jest to niezbędne w celu prawidłowego stwierdzenia skuteczności danych algorytmów.
